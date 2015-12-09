@@ -1,0 +1,34 @@
+{
+  "name": "darktec/http",
+  "description": "HTTP Classes for PHP7",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "php7"
+  ],
+  "authors": [
+    {
+      "name": "David Hopson",
+      "email": "mantle@hotmail.co.uk",
+      "homepage": "http://github.com/darkmantle",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "darktec/util": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5",
+    "guzzle/guzzle": "^3.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Darktec\\": "src"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
